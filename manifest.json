@@ -1,10 +1,12 @@
 {
-    "version": "1.0.0",
+    "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+    "version": "1.0.3",
     "id": "Haze.PacifyingCoins",
     "name": "Pacifying Coins",
     "description": "All coins now incapacitate anyone they are thrown at.",
     "authors": ["Haze"],
     "contentFolders": ["content"],
-    "frameworkVersion": "2.30.4"
+    "frameworkVersion": "2.33.35",
+    "updateCheck": "https://github.com/hazeg7/Pacifying-Coins/main/updates.json"
 }
 			

@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          mkdir -p Haze.PacifyingCoin
+          cp -r manifest.json project.json content/ Haze.PacifyingCoin/
+          zip -r Haze.PacifyingCoin.zip Haze.PacifyingCoin/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Haze.PacifyingCoins.zip
