@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "id": "Haze.PacifyingCoins",
+    "name": "Pacifying Coins",
+    "description": "All coins now incapacitate anyone they are thrown at.",
+    "authors": ["Haze"],
+    "contentFolders": ["content"],
+    "frameworkVersion": "2.30.4"
+}
+			
