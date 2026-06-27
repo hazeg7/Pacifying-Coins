@@ -13,9 +13,9 @@ jobs:
 
       - name: Create zip
         run: |
-          mkdir -p Haze.PacifyingCoin
-          cp -r manifest.json project.json content/ Haze.PacifyingCoin/
-          zip -r Haze.PacifyingCoin.zip Haze.PacifyingCoin/
+          mkdir -p Haze.PacifyingCoins
+          cp -r manifest.json project.json content/ Haze.PacifyingCoins/
+          zip -r Haze.PacifyingCoins.zip Haze.PacifyingCoins/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
